@@ -1,0 +1,46 @@
+---
+:source:
+  :path: test
+  :file: test_leds.c
+:successes:
+- :test: test_LedsOffAfterCreate
+  :line: 38
+  :message: ''
+  :unity_test_time: 0
+- :test: test_prender_un_LED
+  :line: 47
+  :message: ''
+  :unity_test_time: 0
+- :test: test_apagar_un_led
+  :line: 59
+  :message: ''
+  :unity_test_time: 0
+- :test: test_prender_y_apagar_varios_leds
+  :line: 72
+  :message: ''
+  :unity_test_time: 0
+- :test: test_led_prendido
+  :line: 81
+  :message: ''
+  :unity_test_time: 0
+- :test: test_led_apagado
+  :line: 91
+  :message: ''
+  :unity_test_time: 0
+- :test: test_apagar_puerto
+  :line: 108
+  :message: ''
+  :unity_test_time: 0
+:failures:
+- :test: test_encender_puerto
+  :line: 105
+  :message: Expected 0 Was 65535
+  :unity_test_time: 0
+:ignores: []
+:counts:
+  :total: 8
+  :passed: 7
+  :failed: 1
+  :ignored: 0
+:stdout: []
+:time: 0.007691220998822246
